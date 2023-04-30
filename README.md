@@ -5,3 +5,5 @@ The Alpaca trading bot is an ongoing project that aims to automate the process o
 The current state of the project includes downloading stock data and calculating beta weights using Lagrange optimization for a beta-neutral equity trading strategy. Lagrange optimization is used to find the optimal values of beta weights that minimize portfolio variance while maintaining a beta-neutral position.
 
 The next step in the development of the bot is to implement exit and entry rules for the trading period to increase positions and portfolio performance. This will involve developing algorithms that can identify profitable entry and exit points based on technical indicators, such as moving averages, relative strength index (RSI), or other momentum indicators.
+
+To manage the project dependencies and ensure reproducibility, I am using pipenv, a popular package manager for Python projects. 
