@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+alpaca-trade-api = "*"
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+alpaca-py = "*"
+yfinance = "*"
+yahooquery = "*"
+openpyxl = "==3.1.0"
+scipy = "*"
+urlopen = "*"
+statsmodels = "*"
+seaborn = "*"
+scikit-learn = "*"
+mplfinance = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.10"
